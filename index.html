@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bengkel Las Gibran — Sistem Terpadu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Bengkel Las <span>Gibran</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi">☰</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#team">Tim</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#advisor">Advisor</a>
+        <a href="#kalkulator">Kalkulator</a>
+        <a href="#estimasi">Estimasi</a>
+        <a href="#booking">Pemesanan</a>
+        <a href="#portal">Tracking</a>
+        <a href="#faq">FAQ</a>
+        <a href="#admin">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">WEBSITE PUBLIK</p>
+          <h1>Platform Digital Bengkel Las Gibran</h1>
+          <p>Layanan fabrikasi dan pengelasan yang rapi, cepat, dan transparan untuk rumah, komersial, dan industri.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/6282199444471?text=Halo%20Bengkel%20Las%20Gibran,%20saya%20ingin%20konsultasi%20gratis">Konsultasi Gratis</a>
+            <a class="btn btn-secondary" href="#estimasi">Cek Kebutuhan Saya</a>
+            <a class="btn btn-tertiary" href="#booking">Saya Mau Survey</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Statistik</h3>
+          <div class="stat-grid">
+            <div><strong>320+</strong><span>Proyek</span></div>
+            <div><strong>125+</strong><span>Pelanggan</span></div>
+            <div><strong>18</strong><span>Tim Inti</span></div>
+            <div><strong>96%</strong><span>Kepuasan</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profil">
+      <div class="container">
+        <h2>Profil Perusahaan</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Visi</h3>
+            <p>Menjadi perusahaan fabrikasi dan pengelasan paling terpercaya di wilayah operasional kami.</p>
+          </article>
+          <article class="card">
+            <h3>Misi</h3>
+            <ul>
+              <li>Kualitas pekerjaan presisi</li>
+              <li>Ketepatan waktu proyek</li>
+              <li>Material sesuai standar</li>
+              <li>Transparansi biaya</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Legalitas & Sertifikat</h3>
+            <ul>
+              <li>NIB & Izin Usaha</li>
+              <li>Sertifikat K3</li>
+              <li>Sertifikat Tenaga Las</li>
+              <li>Dokumen QA/QC Material</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <h2>Portofolio Cerita Proyek</h2>
+        <div id="portfolioStoryList" class="grid-2">
+          <article class="card">
+            <h3>Kanopi Rumah Minimalis</h3>
+            <p><strong>Masalah:</strong> Halaman depan panas dan tampias hujan.</p>
+            <p><strong>Solusi:</strong> Rangka hollow galvanis + atap spandek pasir.</p>
+            <p><strong>Durasi:</strong> 3 hari kerja.</p>
+            <p><strong>Hasil:</strong> Area depan lebih teduh, tampilan rumah lebih modern.</p>
+          </article>
+          <article class="card">
+            <h3>Pagar Gudang Komersial</h3>
+            <p><strong>Masalah:</strong> Akses gudang kurang aman di malam hari.</p>
+            <p><strong>Solusi:</strong> Fabrikasi pagar hollow + sistem kunci tambahan.</p>
+            <p><strong>Durasi:</strong> 5 hari kerja.</p>
+            <p><strong>Hasil:</strong> Keamanan meningkat dan jalur loading lebih tertata.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="team">
+      <div class="container">
+        <h2>Riwayat Pekerjaan</h2>
+        <div id="workHistoryGallery" class="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="layanan">
+      <div class="container">
+        <h2>Layanan</h2>
+        <div class="grid-4">
+          <article class="card"><h3>Rumah</h3><p>Kanopi, Pagar, Tralis, Tangga, Balkon</p></article>
+          <article class="card"><h3>Komersial</h3><p>Gudang, Bengkel, Workshop, Ruko</p></article>
+          <article class="card"><h3>Industri</h3><p>Struktur Baja, Conveyor, Tangki, Fabrikasi</p></article>
+          <article class="card"><h3>Custom</h3><p>Desain sesuai kebutuhan, revisi fleksibel, konsultasi teknis</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="advisor">
+      <div class="container">
+        <h2>Smart Material Advisor</h2>
+        <form id="advisorForm" class="form-grid">
+          <label>Lokasi
+            <select id="lokasi" required>
+              <option value="">Pilih</option>
+              <option>Pantai</option>
+              <option>Kota</option>
+              <option>Pedesaan</option>
+            </select>
+          </label>
+          <label>Budget
+            <select id="budget" required>
+              <option value="">Pilih</option>
+              <option>Ekonomis</option>
+              <option>Menengah</option>
+              <option>Premium</option>
+            </select>
+          </label>
+          <label>Prioritas
+            <select id="prioritas" required>
+              <option value="">Pilih</option>
+              <option>Murah</option>
+              <option>Kuat</option>
+              <option>Anti Karat</option>
+              <option>Estetika</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn-primary">Rekomendasikan</button>
+        </form>
+        <div id="advisorOutput" class="result-box">Isi form untuk melihat rekomendasi material.</div>
+      </div>
+    </section>
+
+    <section class="section" id="kalkulator">
+      <div class="container">
+        <h2>Kalkulator Material</h2>
+        <article class="card">
+          <h3>Kalkulator Layanan (Rumah / Komersial / Industri / Custom)</h3>
+          <form id="layananKalkulatorForm" class="form-grid">
+            <select id="kalkulatorLayanan" required>
+              <option value="">Pilih Layanan</option>
+              <option value="Rumah">Rumah</option>
+              <option value="Komersial">Komersial</option>
+              <option value="Industri">Industri</option>
+              <option value="Custom">Custom</option>
+            </select>
+            <select id="kalkulatorSubLayanan" required>
+              <option value="">Pilih Detail Layanan</option>
+            </select>
+            <select id="kalkulatorBahan" required>
+              <option value="">Pilih Bahan</option>
+              <option value="Hollow Hitam">Hollow Hitam</option>
+              <option value="Hollow Galvanis">Hollow Galvanis</option>
+              <option value="Stainless Steel">Stainless Steel</option>
+              <option value="WF">WF</option>
+              <option value="H Beam">H Beam</option>
+            </select>
+            <select id="kalkulatorArea" required>
+              <option value="Makassar" selected>Makassar</option>
+              <option value="Gowa">Gowa</option>
+              <option value="Maros">Maros</option>
+              <option value="Takalar">Takalar</option>
+            </select>
+            <input type="number" id="kalkulatorPanjang" placeholder="Panjang (m)" step="0.1" required />
+            <input type="number" id="kalkulatorLebar" placeholder="Lebar (m)" step="0.1" required />
+            <input type="number" id="kalkulatorTinggi" placeholder="Tinggi (m)" step="0.1" required />
+            <button class="btn btn-secondary" type="submit">Hitung</button>
+          </form>
+          <div id="layananKalkulatorOutput" class="result-box small"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark" id="estimasi">
+      <div class="container">
+        <h2>Estimasi Harga</h2>
+        <form id="estimasiForm" class="form-grid">
+          <select id="paketEstimasi" required>
+            <option value="">Pilih Paket Estimasi</option>
+            <option value="Ekonomis">Ekonomis</option>
+            <option value="Standar">Standar</option>
+            <option value="Premium">Premium</option>
+          </select>
+          <input type="number" id="luasEstimasi" placeholder="Luas Pekerjaan (m²)" step="0.1" required />
+          <select id="tingkatKesulitan" required>
+            <option value="">Pilih Tingkat Kesulitan</option>
+            <option value="Mudah">Mudah</option>
+            <option value="Sedang">Sedang</option>
+            <option value="Sulit">Sulit</option>
+          </select>
+
+          <details>
+            <summary>Input Detail Lanjutan (Opsional)</summary>
+            <input type="number" id="biayaMaterial" placeholder="Material (Rp)" />
+            <input type="number" id="biayaJasa" placeholder="Jasa (Rp)" />
+            <input type="number" id="biayaTransport" placeholder="Transportasi (Rp)" />
+            <input type="number" id="biayaFinishing" placeholder="Finishing (Rp)" />
+          </details>
+
+          <button type="submit" class="btn btn-primary">Hitung Estimasi</button>
+        </form>
+        <div id="estimasiOutput" class="result-box">Pilih paket, isi luas, lalu klik hitung untuk melihat estimasi harga yang mudah dipahami.</div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container">
+        <h2>Tools Pemesanan</h2>
+        <form id="bookingForm" class="form-grid booking-grid">
+          <input type="text" id="namaPemesan" placeholder="Nama Pemesan" required />
+          <input type="text" id="kontakPemesan" placeholder="No. WhatsApp Pemesan" required />
+          <select id="materialPesanan" required>
+            <option value="">Pilih Material</option>
+            <option>Hollow Hitam</option>
+            <option>Hollow Galvanis</option>
+            <option>Stainless Steel</option>
+            <option>WF</option>
+            <option>H Beam</option>
+          </select>
+          <select id="jenisLayanan" required>
+            <option value="">Pilih Jenis Layanan</option>
+            <option>Rumah</option>
+            <option>Komersial</option>
+            <option>Industri</option>
+            <option>Custom</option>
+          </select>
+          <input type="date" id="tanggalSurvey" required />
+          <input type="time" id="jamSurvey" required />
+          <input type="text" id="alamatSurvey" placeholder="Alamat" required />
+          <input type="url" id="mapsSurvey" placeholder="Link Lokasi Maps" required />
+          <button type="button" class="btn btn-tertiary" id="lokasiOtomatisBtn">Gunakan Lokasi Saya</button>
+          <p id="lokasiOtomatisInfo" class="muted">Klik tombol untuk isi alamat & link maps otomatis.</p>
+          <textarea id="catatanPesanan" placeholder="Catatan tambahan pelanggan"></textarea>
+          <button type="button" class="btn btn-primary" id="aiBantuBtn">Bantu AI Pilih Material</button>
+          <button type="submit" class="btn btn-secondary">Kirim Pesanan ke Admin</button>
+        </form>
+        <div id="aiBantuOutput" class="result-box">AI siap membantu rekomendasi material berdasarkan jenis pekerjaan.</div>
+        <div id="bookingOutput" class="result-box">Pesanan akan dibuatkan format pesan dan diteruskan ke WhatsApp admin.</div>
+      </div>
+    </section>
+
+    <section class="section" id="tracking">
+      <div class="container">
+        <h2>Tracking Proyek</h2>
+        <p id="trackingTimestamp" class="muted">Update terakhir: Belum ada update.</p>
+        <div class="timeline" id="trackingTimeline">
+          <span class="step active">Pesanan Masuk</span>
+          <span class="step">Survey</span>
+          <span class="step">Penawaran</span>
+          <span class="step">Disetujui</span>
+          <span class="step">Material</span>
+          <span class="step">Fabrikasi</span>
+          <span class="step">Pengelasan</span>
+          <span class="step">Finishing</span>
+          <span class="step">Pemasangan</span>
+          <span class="step">Selesai</span>
+        </div>
+        <button id="nextStatusBtn" class="btn btn-secondary">Update Status Berikutnya</button>
+      </div>
+    </section>
+
+    <section class="section dark" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Apakah survey berbayar?</h3>
+            <p>Untuk area tertentu survey gratis. Area jauh akan diinformasikan biaya transport terlebih dahulu.</p>
+          </article>
+          <article class="card">
+            <h3>Berapa lama pengerjaan?</h3>
+            <p>Tergantung skala proyek. Rata-rata proyek rumah 2–7 hari kerja setelah material siap.</p>
+          </article>
+          <article class="card">
+            <h3>Apakah ada garansi?</h3>
+            <p>Ada garansi pekerjaan sesuai jenis proyek dan kesepakatan kontrak.</p>
+          </article>
+          <article class="card">
+            <h3>Metode pembayaran?</h3>
+            <p>Bisa DP + pelunasan bertahap sesuai progress proyek.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="admin">
+      <div class="container">
+        <h2>Dashboard Admin</h2>
+        <div class="grid-2 admin-login-grid">
+          <article class="card">
+            <h3>Login Admin</h3>
+            <form id="adminLoginForm">
+              <input type="text" id="adminUsername" placeholder="Username Admin" required />
+              <input type="password" id="adminPassword" placeholder="Password Admin" required />
+              <button class="btn btn-primary" type="submit">Login Admin</button>
+            </form>
+            <p id="adminLoginInfo" class="muted">Gunakan akun admin untuk mengelola pesanan dan progress proyek.</p>
+          </article>
+        </div>
+
+        <div id="adminContentManager" class="admin-manager hidden">
+          <h3>Kelola Tim & Portofolio (Admin Only)</h3>
+          <div class="grid-2">
+            <article class="card">
+              <h4>Tambah Gambar Riwayat Pekerjaan</h4>
+              <form id="workHistoryForm">
+                <input type="file" id="workImageFile" />
+                <input type="url" id="workImageUrl" placeholder="URL Gambar (opsional jika tidak upload file)" />
+                <input type="text" id="workImageCaption" placeholder="Caption pekerjaan" required />
+                <button class="btn btn-secondary" type="submit">Tambah Gambar</button>
+              </form>
+            </article>
+            <article class="card">
+              <h4>Tambah Cerita Portofolio</h4>
+              <form id="portfolioStoryForm">
+                <input type="text" id="storyTitle" placeholder="Judul Proyek" required />
+                <textarea id="storyProblem" placeholder="Masalah awal" required></textarea>
+                <textarea id="storySolution" placeholder="Solusi" required></textarea>
+                <input type="text" id="storyDuration" placeholder="Durasi" required />
+                <textarea id="storyResult" placeholder="Hasil" required></textarea>
+                <button class="btn btn-secondary" type="submit">Tambah Cerita</button>
+              </form>
+            </article>
+          </div>
+          <p class="muted">Fitur ini hanya tampil setelah login admin berhasil.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner footer-grid">
+      <div>
+        <p>© 2026 Bengkel Las Gibran — Sistem Terpadu</p>
+        <p class="muted">Alamat: Taman Insani, Kompleks Anggrek Minasa Upa, Gowa, 92114, ID</p>
+      </div>
+      <div>
+        <p class="muted">Jam Operasional: Senin - Sabtu, 08:00 - 17:00</p>
+      </div>
+      <div>
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=6282199444471&text=Halo%20Admin%20Bengkel%20Las%20Gibran%2C%20saya%20ingin%20konsultasi.">Hubungi via WhatsApp</a>
+        <a class="btn btn-secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Taman+Insani%2C+Kompleks+Anggrek+Minasa+Upa%2C+Gowa%2C+92114%2C+ID">Lihat Lokasi Bengkel</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
